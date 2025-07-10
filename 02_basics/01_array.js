@@ -1,39 +1,50 @@
-// array
+//array
+ 
+const myarr=[0,1,2,3,4,6,] 
+const myhero=["spiderman","superman"]
 
-const myArr = [0, 1, 2, 3, 4, 5]
-const myHeors = ["shaktiman", "naagraj"]
+const myarr2=new Array(0,1,2,3) 
+console.log(myarr[0]);
 
-const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArr[1]);
+//array methods
 
-// Array methods
-
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
-
-// myArr.unshift(9)
-// myArr.shift()
-
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
-
-// const newArr = myArr.join()
-
-// console.log(myArr);
-// console.log( newArr);
+myarr.push(6);
+myarr.push(7);
+console.log(myarr);
+myarr.pop();
+console.log(myarr);
+myarr.unshift(9)//added the element in the first of the array
+console.log(myarr);
+myarr.shift()//remove the first element from the array
+console.log(myarr);
+console.log(myarr.includes(9));//is the element  presen in the array or not
+console.log(myarr.indexOf(3));//index of the particualr element in the array
 
 
-// slice, splice
 
-console.log("A ", myArr);
-
-const myn1 = myArr.slice(1, 3)
-
-console.log(myn1);
-console.log("B ", myArr);
+const newarr =  myarr.join();
+console.log(myarr);
+console.log(newarr);
+console.log(typeof newarr);
 
 
-const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
-console.log(myn2);
+//slice and splice
+const mya1= myarr.slice(1,3)
+console.log(mya1);
+console.log(myarr);
+
+
+const mya2 = myarr.splice(1,3);
+console.log(mya2);
+console.log(myarr);
+
+
+
+
+
+
+
+
+
+
+
