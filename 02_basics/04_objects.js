@@ -37,6 +37,26 @@ console.log(tinderUser.hasOwnProperty("name"));
 
 
 
+const course ={
+    couresname: "jshindi",
+    coursefee: 999,
+    teacher: "hitesh"
+}
+const{teacher:instuctor} = course//destuctureing
+console.log(instuctor);
+
+
+//JSON
+//API
+{
+    "name":"pratham",
+    "coursename":"jshindi"
+    "price":"free"
+
+}
+
+
+
 
 
 
